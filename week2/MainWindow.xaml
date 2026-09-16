@@ -29,7 +29,7 @@
         <Button x:Name="infoButton" Content="蒐集資訊" HorizontalAlignment="Left" Margin="429,96,0,0" VerticalAlignment="Top" Height="30" Width="70" Click="infoButton_Click"/>
 
         <!-- 結果顯示框 -->
-        <TextBox x:Name="resultTextBox" HorizontalAlignment="Left" Height="180" Margin="211,215,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="400" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" FontFamily="Consolas"/>
+        <TextBox x:Name="resultTextBox" HorizontalAlignment="Center" Height="180" Margin="0,215,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="476" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" FontFamily="Consolas"/>
         <TextBox HorizontalAlignment="Left" Height="18" Margin="556,196,0,0" TextWrapping="Wrap" Text="顯示成果" VerticalAlignment="Top" Width="55" TextChanged="TextBox_TextChanged"/>
     </Grid>
 </Window>
